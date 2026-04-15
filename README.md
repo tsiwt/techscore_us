@@ -27,7 +27,7 @@ The Streamlit web version runs entirely in your browser. Zero install, zero cost
 | **CSV export** | Auto-save to local folder | Download button in browser |
 | **Double-click → Yahoo Finance** | ✅ | Clickable ticker links |
 | **Company name lookup** | ✅ (slow for large pools) | Omitted (avoids cloud timeout) |
-| **Proxy / VPN needed in China?** | Yes | **No** — cloud server fetches data |
+| **Works in restricted regions?** | Requires proxy / VPN | **Yes** — cloud server fetches data directly |
 
 ---
 
@@ -105,9 +105,9 @@ Opens automatically at http://localhost:8501.
 
 ## For Users in Regions with Restricted Internet Access
 
-> **💡 The Streamlit web version does NOT require a proxy or VPN** — the cloud server fetches data from Yahoo Finance directly. If you're in China, the web version is the easiest option.
+> **💡 The Streamlit web version does NOT require a proxy or VPN** — the cloud server fetches data from Yahoo Finance directly. If you are in a network-restricted region, the web version is the easiest option.
 
-The desktop version uses yfinance which accesses query1.finance.yahoo.com. This may be blocked or unstable in certain countries or regions.
+The desktop version uses yfinance which accesses query1.finance.yahoo.com. This may be blocked or unstable in certain countries or regions due to network restrictions.
 
 ### Option A: Switch VPN / Proxy to Global Mode
 
